@@ -53,7 +53,8 @@ public class JugadorMovimiento : MonoBehaviour
 
 
     }
-    /*
+
+    //la puerta y ele enemigo no tiene el isTrigger del collider activado
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Puerta"))
@@ -62,17 +63,6 @@ public class JugadorMovimiento : MonoBehaviour
             ControladorSonido.Instance.EjecutarSonidoRecibirSuminsitros(audioRecibirSuministros); //sonido
 
         }
-        else
-        {
-            if (collision.collider.CompareTag("BalaEnemigo"))
-            {
-                print("Perdiste una vida");
-                ControladorPuntaje.Instance.perderUnaVida();
-                volverPosicionInicial();
-                ControladorSonido.Instance.EjecutarSonidoMuerteJugador(audioMuerteJugador); //sonido
-
-            }
-        }
 
         if (collision.collider.CompareTag("Enemigo"))
         {
@@ -80,35 +70,19 @@ public class JugadorMovimiento : MonoBehaviour
             ControladorPuntaje.Instance.perderUnaVida();
             volverPosicionInicial();
             ControladorSonido.Instance.EjecutarSonidoMuerteJugador(audioMuerteJugador); //sonido
-        }
-    }*/
 
+        }
+    }
+    //la bala funciona con trigger
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Puerta"))
-        {
-            print("Recibiste suministros de supervivencia...");
-            ControladorSonido.Instance.EjecutarSonidoRecibirSuminsitros(audioRecibirSuministros); //sonido
-
-        }
-        else
-        {
-            if (collision.CompareTag("BalaEnemigo"))
-            {
-                print("Perdiste una vida");
-                ControladorPuntaje.Instance.perderUnaVida();
-                volverPosicionInicial();
-                ControladorSonido.Instance.EjecutarSonidoMuerteJugador(audioMuerteJugador); //sonido
-
-            }
-        }
-
-        if (collision.CompareTag("Enemigo"))
+        if (collision.CompareTag("BalaEnemigo"))
         {
             print("Perdiste una vida");
             ControladorPuntaje.Instance.perderUnaVida();
             volverPosicionInicial();
             ControladorSonido.Instance.EjecutarSonidoMuerteJugador(audioMuerteJugador); //sonido
+
         }
     }
 

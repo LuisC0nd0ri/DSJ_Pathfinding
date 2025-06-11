@@ -58,7 +58,7 @@ public class PlayerScript : MonoBehaviour
 
 
     }
-    /*
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Puerta"))
@@ -69,25 +69,6 @@ public class PlayerScript : MonoBehaviour
         }
 
         if (collision.collider.CompareTag("Enemigo"))
-        {
-            print("Perdiste una vida");
-            ControladorPuntaje.Instance.perderUnaVida();
-            volverPosicionInicial();
-            ControladorSonido.Instance.EjecutarSonidoMuerteJugador(audioMuerteJugador); //sonido
-
-        }
-    }*/
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Puerta"))
-        {
-            print("Recibiste suministros de supervivencia...");
-            ControladorSonido.Instance.EjecutarSonidoRecibirSuminsitros(audioRecibirSuministros); //sonido
-
-        }
-
-        if (collision.CompareTag("Enemigo"))
         {
             print("Perdiste una vida");
             ControladorPuntaje.Instance.perderUnaVida();
