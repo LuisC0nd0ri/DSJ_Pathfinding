@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DocumentosUnity\\DSJ_Pathfinding\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB8B464E-8C32-189A-6A9B-9474D10BBA8C}|Assembly-CSharp.csproj|d:\\documentosunity\\dsj_pathfinding\\assets\\tutorial\\scripts\\findpathastar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB8B464E-8C32-189A-6A9B-9474D10BBA8C}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorial\\scripts\\findpathastar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB8B464E-8C32-189A-6A9B-9474D10BBA8C}|Assembly-CSharp.csproj|D:\\DocumentosUnity\\DSJ_Pathfinding\\assets\\tutorial\\scripts\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB8B464E-8C32-189A-6A9B-9474D10BBA8C}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorial\\scripts\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FindPathAStar.cs",
+              "DocumentMoniker": "D:\\DocumentosUnity\\DSJ_Pathfinding\\Assets\\Tutorial\\scripts\\FindPathAStar.cs",
+              "RelativeDocumentMoniker": "Assets\\Tutorial\\scripts\\FindPathAStar.cs",
+              "ToolTip": "D:\\DocumentosUnity\\DSJ_Pathfinding\\Assets\\Tutorial\\scripts\\FindPathAStar.cs",
+              "RelativeToolTip": "Assets\\Tutorial\\scripts\\FindPathAStar.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAcwNQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:15:07.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "D:\\DocumentosUnity\\DSJ_Pathfinding\\Assets\\Tutorial\\scripts\\Extensions.cs",
+              "RelativeDocumentMoniker": "Assets\\Tutorial\\scripts\\Extensions.cs",
+              "ToolTip": "D:\\DocumentosUnity\\DSJ_Pathfinding\\Assets\\Tutorial\\scripts\\Extensions.cs",
+              "RelativeToolTip": "Assets\\Tutorial\\scripts\\Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:14:53.53Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
